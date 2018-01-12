@@ -1,0 +1,2 @@
+export const LOGOUT_USER = "LOGOUT_USER";
+export const RECEIVED_API_ERROR = "RECEIVED_API_ERROR";

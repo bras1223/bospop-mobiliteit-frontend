@@ -1,0 +1,45 @@
+@import 'src/styles/settings/general';
+
+.main {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.mapContainer {
+    height: 100%;
+    width: 100%;
+    padding-bottom: 3.5rem;
+}
+
+.switch {
+    display: flex;
+    position: absolute;
+    right: 0;
+    top: 0.8rem;
+    z-index: 1;
+    height: 1.5rem;
+
+    svg {
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+
+    .link {
+        width: 3rem;
+
+        svg {
+            fill: black;
+        }
+    }
+
+    .active {
+        width: 3rem;
+
+        svg {
+            fill: white;
+        }
+    }
+}

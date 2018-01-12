@@ -1,0 +1,14 @@
+nl:
+  nav:
+    planning: 'Planning'
+    map: 'Posten'
+    info: 'Informatie'
+    profile: 'Profiel'
+  login:
+    disclaimer: 'Enkel bedoeld voor Bospop-mobiliteits medewerkers.'
+    login_using_google: 'Login met Google'
+  map:
+    title: 'Posten'
+  profile:
+    title: 'Profiel'
+    logout: 'Uitloggen'

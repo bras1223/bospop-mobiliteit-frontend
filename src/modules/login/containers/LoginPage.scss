@@ -1,0 +1,53 @@
+@import 'src/styles/settings/general';
+
+.main {
+    overflow-y: auto;
+    flex: auto;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    background-color: $brand-background;
+    background-size: cover;
+    background-position: top left;
+}
+
+.logo {
+    display: flex;
+    background: url('src/assets/logo/bospop.png');
+    flex: 1;
+    min-height: 2rem;
+    background-size: auto 3.3rem;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}
+
+h3 {
+    align-self: center;
+    margin-bottom: 7rem;
+    color: white;
+}
+
+.login {
+    display: flex;
+    flex: 1;
+    padding: 0 3rem;
+    max-width: 26rem;
+    width: 100%;
+    align-self: center;
+}
+
+.disclaimer {
+    display: flex;
+    flex: 1;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 3rem;
+
+    span {
+        font-size: 0.7rem;
+        font-weight: 300;
+        align-self: flex-end;
+        color: white;
+        width: 100%;
+    }
+}
